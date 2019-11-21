@@ -10,6 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod1
+set $super Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -199,4 +200,8 @@ bar {
         status_command i3status
 }
 
+# Set up wall paper 
 exec_always feh --bg-scale ~/Pictures/wallpaper.jpg
+
+# lock screen
+bindsym $super+shift+l exec i3lock
