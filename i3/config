@@ -129,7 +129,10 @@ set $ws10 "10: Relax"
 
 
 # use 'xprop' to get the WM class value
+# assign firefox to Web workspace
 assign [class="firefox"] $ws2
+# assign visual-studio-code / community/code to Coding workspace
+assign [class="code-oss"] $ws3
 
 
 # switch to workspace
